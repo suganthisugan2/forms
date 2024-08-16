@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice form Task 2</title>
+</head>
+<body>
+    <h2>Appointment Request Form</h2>
+    <h4>Let us know how we can help you!</h4>
+    <hr> 
+    <form action="response.html" method="get">
+        <table>
+            <tr>    
+            <td><label for="First Name"> First Name</label></td>
+            <td><input name="Name" type="text" id="First Name"></td>
+            </tr>
+<tr>
+    <td><label for="Last Name"> Last Name</label></td>
+    <td><input name="Name" type="text" id="Last Name"></td>
+</tr>
+<tr>
+        <td><label for="Contact Number"> Contact Number</label></td>
+        <td><input name="Contact Number" type="tel" id="Contact Number pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></tr>
+</tr>
+<tr>
+    <td><label for="Email Address">Email Address</label></td>
+    <td><input name="Email Address" type="Email Address" id="Email Address" value="Enter the id@gmail.com"></td>
+</tr>
+<tr>
+    <td><label for="Address">Address</label></td>
+    <td><input name="Address" type="Address" id="Address" > </td>
+</tr>
+</table>
+<table> 
+    <h4>What date and time work best for you?</h4>
+    <td><label for="date">Date</label></td>
+    <td><input name="date" type="date" id="date"  min="2024-08-16" max="2024-08-16"></td>
+    <td><label for="time">Time</label></td>
+    <td><input name="time" type="time" id="time" max="12:30"></td>
+<tr>
+    <td><button type="submit">submit</button> </td>
+</tr>
+</form> 
+</body>
+</html>
